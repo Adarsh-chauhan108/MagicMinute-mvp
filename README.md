@@ -52,6 +52,12 @@ MagicMinute reply: *“Sure! Here’s a Python snippet for that...”*
 git clone https://github.com/your-username/magicminute-mvp
 cd magicminute-mvp
 pip install -r requirements.txt
+pip install streamlit
+pip install google-api-python-client
+pip install google-auth google-auth-oauthlib
+pip install openai
+pip install apscheduler
+pip install pytz
 ```
 
 ### 2. Launch the App
