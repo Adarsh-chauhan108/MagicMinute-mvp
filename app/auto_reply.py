@@ -7,7 +7,7 @@ from google.oauth2.credentials import Credentials
 from email.mime.text import MIMEText
 from datetime import datetime
 
-# Load credentials
+
 creds = Credentials.from_authorized_user_file("token.json", ["https://www.googleapis.com/auth/gmail.modify"])
 service = build("gmail", "v1", credentials=creds)
 
